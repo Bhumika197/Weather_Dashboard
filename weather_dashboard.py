@@ -199,7 +199,7 @@ def plot_correlation(df):
 
 def main():
     # Sidebar
-    st.sidebar.title("🌍 Weather Intelligence Dashboard")
+    st.sidebar.title("🌍 Weather Data Visualizer Dashboard")
     st.sidebar.write("Enter location coordinates:")
     
     # Default to Delhi's coordinates
@@ -211,7 +211,7 @@ def main():
     st.sidebar.write("ℹ️ Data provided by Open-Meteo API")
     
     # Main content
-    st.title(f"⛅ Weather Intelligence Dashboard")
+    st.title(f"⛅ Weather Data Visualizer Dashboard")
     st.write("Real-time weather data analysis and prediction")
     
     # Fetch data
